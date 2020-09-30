@@ -39,6 +39,7 @@ But when we do a 'tokenize-and-stem' operation we get:
 To determine how closely one movie is related to the other by the help of unsupervised learning, we can use clustering techniques. Clustering is the method of grouping together a number of items such that they exhibit similar properties. According to the measure of similarity desired, a given sample of items can have one or more clusters.
 
 I used K-Means algorithm.K-means is an algorithm which helps us to implement clustering in Python. The name derives from its method of implementation: the given sample is divided into K clusters where each cluster is denoted by the mean of all the items lying in that cluster.
+![](https://github.com/parthshah28/FIND-MOVIE-SIMILARITY-FROM-PLOT-SUMMARIES/blob/master/images/bar_clusters.png)
 
 ## Dendrogram
 We shall plot a dendrogram of the movies whose similarity measure will be given by the similarity distance we previously calculated. The lower the similarity distance between any two movies, the lower their linkage will make an intercept on the y-axis. For instance, the lowest dendrogram linkage we shall discover will be between the movies, It's a Wonderful Life and A Place in the Sun. This indicates that the movies are very similar to each other in their plots.
