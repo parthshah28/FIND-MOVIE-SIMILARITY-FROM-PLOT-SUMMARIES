@@ -20,7 +20,7 @@ Consider the following sentences:
 "escapes to the city walls only to witness Cicero's death" ~ Braveheart
 
 here are different algorithms available for stemming such as the Porter Stemmer, Snowball Stemmer, etc. I used the Snowball Stemmer.
-### Outout:
+### Output:
 Without stemming:  ['Today', 'May', 'is', 'his', 'only', 'daughter', "'s", 'wedding']
 After stemming:    ['today', 'may', 'is', 'his', 'onli', 'daughter', "'s", 'wed']
 
@@ -39,6 +39,7 @@ But when we do a 'tokenize-and-stem' operation we get:
 To determine how closely one movie is related to the other by the help of unsupervised learning, we can use clustering techniques. Clustering is the method of grouping together a number of items such that they exhibit similar properties. According to the measure of similarity desired, a given sample of items can have one or more clusters.
 
 I used K-Means algorithm.K-means is an algorithm which helps us to implement clustering in Python. The name derives from its method of implementation: the given sample is divided into K clusters where each cluster is denoted by the mean of all the items lying in that cluster.
+
 ![](https://github.com/parthshah28/FIND-MOVIE-SIMILARITY-FROM-PLOT-SUMMARIES/blob/master/images/bar_clusters.png)
 
 ## Dendrogram
