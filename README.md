@@ -44,10 +44,11 @@ I used K-Means algorithm.K-means is an algorithm which helps us to implement clu
 
 ## Dendrogram
 We shall plot a dendrogram of the movies whose similarity measure will be given by the similarity distance we previously calculated. The lower the similarity distance between any two movies, the lower their linkage will make an intercept on the y-axis. For instance, the lowest dendrogram linkage we shall discover will be between the movies, It's a Wonderful Life and A Place in the Sun. This indicates that the movies are very similar to each other in their plots.
+
 ![](https://github.com/parthshah28/FIND-MOVIE-SIMILARITY-FROM-PLOT-SUMMARIES/blob/master/images/download.png)
 
 ## Wrap-up
-which movie is most similar to the movie Braveheart?
+Which movie is most similar to the movie Braveheart?
 ### Answer:
 Gladiator
 
